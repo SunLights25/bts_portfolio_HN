@@ -4,7 +4,15 @@ html {
     font-size: 100%;
     box-sizing: border-box;
 }
-
+section {
+    background-color: rgb(128, 223, 235);
+    border-radius: 7px;
+}
+h1 {
+    font-size: 70px;
+    color: rgb(138, 46, 221);
+    text-decoration: underline;
+}
 body {
     font: 2rem "Poppins", sans-serif;
 }
