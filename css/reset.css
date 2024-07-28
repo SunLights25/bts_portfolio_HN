@@ -7,12 +7,19 @@ html {
 section {
     background-color: rgb(128, 223, 235);
     border-radius: 7px;
+    padding: 5px;
+    margin-left: 170px;
+    margin-right: 170px;
+    text-align: center; 
+    
 }
 h1 {
     font-size: 70px;
-    color: rgb(138, 46, 221);
+    color: rgb(212, 58, 132);
     text-decoration: underline;
 }
 body {
     font: 2rem "Poppins", sans-serif;
+    background: linear-gradient(rgb(37,196,220), rgb(222,246,249));
+
 }
