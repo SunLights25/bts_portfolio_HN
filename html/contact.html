@@ -20,7 +20,21 @@
     </section>
 </head>
 <body>
-    <h1>Formulaire de contact</h1>
+    <header>
+     <h1>Formulaire de contact</h1>
+    </header>
+    <p>Vous souhaiter me joindre => Je vous invite à remplir ce formulaire. 
+        Votre demande sera traîtée prochainement.
+    </p>
+    <form action="formulaire.php" method="post">
+        <label for="Nom">Votre Nom</label>
+        <input type="text" id="Nom"><br>
+
+        <label for="Commentaire">Un avis, Une demande? </label>
+        <textarea id="Commentaire"></textarea>
+
+        <input type="submit" value="Envoyer">
+    </form>
 </body>
 <footer>
     <p>&copy;HAMON Nikko - 2024</p>
