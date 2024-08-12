@@ -40,7 +40,7 @@ body {
     background: linear-gradient(rgb(37,196,220), rgb(222,246,249));
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin-left: 30px ; 
+    margin-left: 30px ; /*NB: footer impliqué dans décalage, Pourquoi??*/
     padding-bottom: 90px;
     position: relative;
     min-height: 100vh;
@@ -52,10 +52,14 @@ body {
 }
 
 footer {
-    font-size: 20px;
-    text-align: end;
+    font-size: 23px;
+    font-style: italic;  
+    text-align: center;
     padding: 30px;
     background-color: rgb(197, 28, 110);
-    position: fixed;
+    color: rgb(255, 255, 255);
+    position: absolute;
     bottom: 0;
+    left: 0;
+    right: 0 ;
 }
